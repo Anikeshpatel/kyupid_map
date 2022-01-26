@@ -1,0 +1,13 @@
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.apple-popup {
+  background-color: transparent;
+}
+
+.apple-popup .mapboxgl-popup-content ul {
+  list-style: none;
+}

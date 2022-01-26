@@ -1,0 +1,57 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  padding: 2rem;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-container {
+  flex: 1;
+}
+
+.App-controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.color_lable_wrapper {
+  font-size: 1.5rem;
+}
+
+.color_lable_wrapper div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.color-box {
+  border: 1px solid black;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.color-box.high {
+  background: green;
+}
+
+.color-box.medium {
+  background: orange;
+}
+
+.color-box.low {
+  background: red;
+}
+
+.hide {
+  display: none;
+}
