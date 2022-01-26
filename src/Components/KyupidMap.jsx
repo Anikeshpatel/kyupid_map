@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import mapboxgl from "mapbox-gl";
+import mapboxgl from "!mapbox-gl";  // eslint-disable-line import/no-webpack-loader-syntax
 import { AREAS_URL, USERS_URL } from "../constants";
 import useQuery from "../hooks/useQuery";
 import "./KyupidMap.css";

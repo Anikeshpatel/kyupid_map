@@ -1,4 +1,4 @@
-import mapboxgl from 'mapbox-gl';
+import mapboxgl from '!mapbox-gl';  // eslint-disable-line import/no-webpack-loader-syntax
 
 export const BASE_URL = 'https://kyupid-api.vercel.app/api'
 export const AREAS_URL = `${BASE_URL}/areas`
